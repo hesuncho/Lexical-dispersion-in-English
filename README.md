@@ -1,5 +1,5 @@
 # Lexical-dispersion-in-English
-The data used for the maniscript "Dispersion Effects in the English Lexicon: Focusing on Vowel Durational Contrasts"
+The data used for the manuscript "Dispersion Effects in the English Lexicon: Focusing on Vowel Durational Contrasts"
 
 "cio.txt"
 
