@@ -7,7 +7,7 @@ The list of 325 CIO words collected from the CMU Pronouncing Dictionary, mention
 We collected English monosyllabic words with onset and coda (C1VC2), where C1 is not empty, V is /i:/
 or /ɪ/, and C2 is an obstruent coda differing in voicing while sharing the same place of articulation (“CIO”).
 The words were collected from the CMU Pronouncing Dictionary (American English, version 0.7b,
-134,000 words) using R scripts. Homophones were treated as a single word; for example, leach/leech /li:tʃ/
+134,000 words) using R scripts. Homophones were treated as a single word. For example, leach/leech /li:tʃ/
 - lich /lɪtʃ/ was counted as one minimal pair rather than two. There were 2,182 CVC words in the dictionary,
 from which 325 CIO words were collected for our analysis.
 
