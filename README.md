@@ -1,20 +1,21 @@
 # Lexical-dispersion-in-English
-The data used for the manuscript "Dispersion Effects in the English Lexicon: Focusing on Vowel Durational Contrasts"
 
-"cio.txt" (325 words)
+The data used for the manuscript: 
+**"Dispersion Effects in the English Lexicon: Focusing on Vowel Durational Contrasts"**
 
-- The list of 325 CIO words collected from the CMU Pronouncing Dictionary, mentioned in the first paragraph of Section 4.1 (Data collection)
-- We collected English monosyllabic words with onset and coda (C1VC2), where C1 is not empty, V is /i:/
-or /ɪ/, and C2 is an obstruent coda differing in voicing while sharing the same place of articulation (“CIO”).
-The words were collected from the CMU Pronouncing Dictionary (American English, version 0.7b,
-134,000 words) using R scripts. Homophones were treated as a single word. For example, leach/leech /li:tʃ/ and lich /lɪtʃ/ was counted as one minimal pair rather than two. There were 2,182 CVC words in the dictionary,
-from which 325 CIO words were collected for our analysis.
+---
 
-"cio_results.xlsx" (704 words) 
+### 📄 cio.txt (325 words)
 
-- The list of all possible CIO words, their scores, maxent values, P(word) obtained from the Phonotatic Learner (Hayes and Wilson 2008), mentioned in Section 5.1.1 (Step 1. Obtain P(word) for all the possible CIO words)
-- To generate hypothetical lexicons based on the phonotactic grammar of the actual lexicon, the
-probabilities of all the possible CIO words (P(word)) were obtained. This includes non-existing but
-phonotactically-possible English words, as well as existing ones. All possible CIO words are formed from
-all possible combinations of consonants in the onset (22), vowels (/i,ɪ/) (2), and obstruents in the coda (16),
-yielding a total of 704 (22 × 2 × 16 = 704).
+* **Description**: The list of 325 CIO words collected from the CMU Pronouncing Dictionary, mentioned in Section 4.1 (Data collection).
+* **Selection Criteria**: 
+    * Collected English monosyllabic words with onset and coda (**C1VC2**).
+    * V is /i:/ or /ɪ/, and C2 is an obstruent coda.
+* **Note**: Homophones were treated as a single word. (e.g., *leach/leech* counted as one pair).
+
+### 📊 cio_results.xlsx (704 words)
+
+* **Description**: The list of all possible CIO words, their scores, and $P(word)$ obtained from the **Phonotactic Learner** (Hayes and Wilson 2008).
+* **Details**: 
+    * Includes non-existing but phonotactically-possible English words.
+    * **Calculation**: Onset (22) × Vowel (2) × Coda (16) = **704 words**.
