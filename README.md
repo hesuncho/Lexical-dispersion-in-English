@@ -1,7 +1,7 @@
 # Lexical-dispersion-in-English
 The data used for the manuscript "Dispersion Effects in the English Lexicon: Focusing on Vowel Durational Contrasts"
 
-"cio.txt"
+"cio.txt" (325 words)
 
 - The list of 325 CIO words collected from the CMU Pronouncing Dictionary, mentioned in the first paragraph of Section 4.1 (Data collection)
 - We collected English monosyllabic words with onset and coda (C1VC2), where C1 is not empty, V is /i:/
@@ -10,10 +10,10 @@ The words were collected from the CMU Pronouncing Dictionary (American English, 
 134,000 words) using R scripts. Homophones were treated as a single word. For example, leach/leech /li:tʃ/ and lich /lɪtʃ/ was counted as one minimal pair rather than two. There were 2,182 CVC words in the dictionary,
 from which 325 CIO words were collected for our analysis.
 
-"cio_results.xlsx"
+"cio_results.xlsx" (704 words) 
 
-The list of all possible CIO words, their scores, maxent values, P(word) obtained from the Phonotatic Learner (Hayes and Wilson 2008), mentioned in Section 5.1.1 (Step 1. Obtain P(word) for all the possible CIO words)
-To generate hypothetical lexicons based on the phonotactic grammar of the actual lexicon, the
+- The list of all possible CIO words, their scores, maxent values, P(word) obtained from the Phonotatic Learner (Hayes and Wilson 2008), mentioned in Section 5.1.1 (Step 1. Obtain P(word) for all the possible CIO words)
+- To generate hypothetical lexicons based on the phonotactic grammar of the actual lexicon, the
 probabilities of all the possible CIO words (P(word)) were obtained. This includes non-existing but
 phonotactically-possible English words, as well as existing ones. All possible CIO words are formed from
 all possible combinations of consonants in the onset (22), vowels (/i,ɪ/) (2), and obstruents in the coda (16),
